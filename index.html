@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree EXTRAPORA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'CreatoDisplay';
+            src: url('fonts/CreatoDisplay-Regular.otf') format('opentype');
+        }
+
+        @font-face {
+            font-family: 'Forestyland';
+            src: url('fonts/Forestyland-Regular.ttf') format('truetype');
+        }
+
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE 10+ */
+            user-select: none; /* Standard */
+            font-family: 'Forestyland';
+            background-color: #D5D1C6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #D5D1C6;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 25px;
+            margin-left: 10px;
+        }
+
+        .profile-info {
+            text-align: left;
+        }
+
+        h1 {
+            font-family: 'Forestyland';
+            font-size: 36px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-family: 'CreatoDisplay';
+            font-size: 18px;
+            color: #555;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .link-button {
+            -webkit-tap-highlight-color: transparent; /* Menghilangkan highlight biru */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            margin: 10px 0;
+            text-decoration: none;
+            background-color: transparent;
+            color: black;
+            border-radius: 5px;
+            border: 1px solid #D5D1C6;
+            font-family: 'Forestyland';
+            font-size: 36px;
+        }
+
+        /* Superscript styling */
+        .link-button sup {
+            font-family: 'Forestyland';
+            font-size: 16px;
+            margin-left: 8px; /* Jarak antara nama link dan superscript */
+        }
+
+        /* Jarak untuk superscript di urutan ganjil */
+        .link-button.ganjil sup {
+            margin-right: 8px; /* Jarak antara superscript dan nama link */
+        }
+
+        .link-button:hover {
+            background-color: #D5D1C6;
+            border: 1px solid #000;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #000;
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .social-media {
+            -webkit-tap-highlight-color: transparent; /* Menghilangkan highlight biru */
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            border: 1px solid #D5D1C6;
+        }
+
+        .social-button {
+            border: 1px solid #D5D1C6;
+            -webkit-tap-highlight-color: transparent;
+            padding: 10px;
+            margin-right: 10px;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px;
+            background-color: transparent;
+        }
+
+        .social-button:hover {
+            background-color: #D5D1C6;
+            border: 1px solid #000;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 12px;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            .profile-img {
+                width: 80px;
+                height: 80px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .link-button {
+                font-size: 24px;
+            }
+
+            .social-button {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="profil.png" alt="Foto Profil" class="profile-img">
+            <div class="profile-info">
+                <h1>EXTRAPORA</h1>
+                <p>MPM KM UNP</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="links">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfz5N5PyLyIh40-_vFpBGwGqOs9y5Yq4SLSsD5QHSt37oHdjg/viewform" class="link-button ganjil"><sup>01</sup> Form Biro</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSerzt-aVJVz9qCI9acOJ5jkrvRXA-nNjCneGtS3G960zBsUgw/viewform" class="link-button genap">Form Aspirasi<sup>02</sup></a>
+            <a href="https://linktr.ee/UNPLegislatifFair2024" class="link-button ganjil"><sup>03</sup>ULF 2024</a>
+            <a href="https://docs.google.com/forms/d/1DDcGcLyMGTCmfz6g25Ko8RYl1NKRbD8GBpBAofo247o/viewform?edit_requested=true" class="link-button genap">SLM UNP 2024<sup>04</sup></a>
+            <a href="#" class="link-button ganjil"><sup>05</sup>Uji Publik UUD</a>
+            <a href="https://drive.google.com/file/d/1xMJYX79SLxSQJHiAOzVPisq8nKga13AF/preview" class="link-button genap">Teknik Sidang<sup>06</sup></a>
+            <a href="#" class="link-button ganjil"><sup>07</sup>Contact Person</a>
+        </div>
+        <div class="divider"></div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/mpmkmunp" class="social-button">Instagram</a>
+            <a href="https://youtube.com/@mpmkmunp?si=LvIjLs1g1JnFMpX6" class="social-button">YouTube</a>
+        </div>
+        <footer>
+            <p>by: EXTRAPORA</p>
+        </footer>
+    </div>
+</body>
+</html>
