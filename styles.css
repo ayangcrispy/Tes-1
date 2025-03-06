@@ -1,0 +1,149 @@
+/* Font Faces */
+@font-face {
+    font-family: 'CreatoDisplay';
+    src: url('fonts/CreatoDisplay-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Forestyland';
+    src: url('fonts/Forestyland-Regular.ttf') format('truetype');
+}
+
+/* Global Styles */
+body {
+    font-family: 'Forestyland', sans-serif;
+    background-color: #D5D1C6;
+    margin: 0;
+    padding: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #D5D1C6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-left: 10px;
+    
+}
+
+.profile-info {
+    text-align: left;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'CreatoDisplay', sans-serif;
+    font-size: 20px;
+    margin-top: -14px;
+    color: #555;
+}
+
+/* Links Section */
+.links {
+    margin-top: 20px;
+}
+
+.link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 15px 0;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #D5D1C6;
+    font-size: 38px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.link-button sup {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.link-button.ganjil sup {
+    margin-right: 8px;
+}
+
+.link-button:hover {
+    background-color: #D5D1C6;
+    border: 0.5px solid #000;
+}
+
+/* Divider */
+.divider {
+    height: 0.5px;
+    background-color: #000;
+    margin: 20px 8px;
+}
+
+/* Social Media Section */
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid #D5D1C6;
+}
+
+.social-button {
+    padding: 10px;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #D5D1C6;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.social-button:hover {
+    background-color: #D5D1C6;
+    border: 1px solid #000;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    
+
+}
