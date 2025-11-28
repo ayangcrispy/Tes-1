@@ -3,37 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linktree EXTRAPORA</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>The Seven Basic Quality Tools - Aplikasi Lean & Six Sigma</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* CSS dari slide pertama Anda akan diletakkan di sini */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: #0A1628; }
+        .slide-container {
+            width: 1280px; min-height: 720px; background-color: #0A1628;
+            background-image: linear-gradient(0deg, transparent 24%, rgba(0, 217, 255, 0.05) 25%, rgba(0, 217, 255, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 217, 255, 0.05) 75%, rgba(0, 217, 255, 0.05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 217, 255, 0.05) 25%, rgba(0, 217, 255, 0.05) 26%, transparent 27%, transparent 74%, rgba(0, 217, 255, 0.05) 75%, rgba(0, 217, 255, 0.05) 76%, transparent 77%, transparent);
+            background-size: 50px 50px; position: relative; display: flex; flex-direction: column; overflow: hidden;
+        }
+        .header { padding-top: 40px; padding-left: 60px; padding-right: 60px; border-bottom: 2px solid rgba(0, 217, 255, 0.3); }
+        .header h1 { font-family: 'Space Grotesk', sans-serif; font-size: 48px; font-weight: 700; color: #00D9FF; margin-bottom: 12px; text-shadow: 0 0 15px rgba(0, 217, 255, 0.4); letter-spacing: -1px; }
+        .header p { font-size: 14px; color: #FFC857; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase; }
+        .content { display: flex; flex: 1; padding: 12px 60px; gap: 50px; align-items: center; }
+        .content-left { flex: 1; display: flex; flex-direction: column; gap: 12px; }
+        .info-section { background-color: rgba(0, 217, 255, 0.08); border-left: 5px solid #FF6B35; padding: 12px; border-radius: 0; }
+        .section-title { font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 700; color: #FF6B35; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px; }
+        .section-content { font-size: 13px; color: #E8F4F8; line-height: 1.6; }
+        .section-content ul { list-style-position: inside; padding-left: 5px; }
+        .section-content li { margin-bottom: 4px; }
+        .tools-list { background-color: rgba(255, 107, 53, 0.05); border-left: 5px solid #FFC857; padding: 12px; border-radius: 0; }
+        .tools-title { font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 700; color: #FFC857; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px; }
+        .content-right { flex: 0 0 320px; display: flex; justify-content: center; align-items: center; }
+        .content-right img { max-width: 100%; max-height: 380px; object-fit: contain; filter: drop-shadow(0 0 30px rgba(0, 217, 255, 0.4)); }
+        .footer { display: flex; justify-content: space-between; align-items: center; padding: 13px 60px; border-top: 1px solid rgba(0, 217, 255, 0.2); background-color: rgba(10, 22, 40, 0.9); }
+        .footer-left { font-size: 12px; color: #00D9FF; font-weight: 600; }
+        .footer-right { font-size: 12px; color: #FFC857; font-weight: 600; }
+        .progress-indicator { width: 120px; height: 5px; background-color: rgba(0, 217, 255, 0.2); border-radius: 2px; overflow: hidden; }
+        .progress-bar { width: 92%; /* Updated for slide 12 */ height: 100%; background: linear-gradient(90deg, #00D9FF, #FF6B35); }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="profile">
-            <img src="profil.png" alt="Foto Profil" class="profile-img">
-            <div class="profile-info">
-                <h1>EXTRAPORA</h1>
-                <p>MPM KM UNP 3.4</p>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Aplikasi dalam Lean & Six Sigma</h1>
+            <p>SEVEN BASIC QUALITY TOOLS</p>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <div class="info-section">
+                    <div class="section-title">Seven Tools dalam Lean Manufacturing</div>
+                    <div class="section-content">
+                        <p>Lean fokus pada eliminasi waste (pemborosan) dalam proses. Seven Tools digunakan untuk:</p>
+                        <ul>
+                            <li>Mengidentifikasi jenis waste menggunakan Check Sheets.</li>
+                            <li>Memprioritaskan waste signifikan menggunakan Pareto Charts.</li>
+                            <li>Melakukan value stream mapping menggunakan Flowcharts.</li>
+                            <li>Memonitor efisiensi proses menggunakan Control Charts.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tools-list">
+                    <div class="tools-title">Seven Tools dalam Six Sigma (DMAIC)</div>
+                    <div class="section-content">
+                        <ul>
+                            <li><strong>Define:</strong> Flowcharts untuk memahami proses dan scope.</li>
+                            <li><strong>Measure:</strong> Check Sheets dan Histograms untuk pengumpulan dan analisis data.</li>
+                            <li><strong>Analyze:</strong> Pareto Charts dan Scatter Diagrams untuk identifikasi faktor penting.</li>
+                            <li><strong>Improve:</strong> Fishbone Diagrams untuk brainstorming dan identifikasi solusi.</li>
+                            <li><strong>Control:</strong> Control Charts untuk memonitor proses setelah perbaikan.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-section">
+                    <div class="section-title">Integrasi dengan Metodologi Lain</div>
+                    <div class="section-content">
+                        <ul>
+                            <li>Seven Tools adalah fondasi dari Total Quality Management (TQM).</li>
+                            <li>Seven Tools mendukung Kaizen (continuous improvement).</li>
+                            <li>Seven Tools digunakan dalam Lean Six Sigma.</li>
+                            <li>Seven Tools adalah bagian dari ISO 9001 Quality Management System.</li>
+                            <li>Seven Tools digunakan dalam problem-solving seperti A3 Thinking dan 8D.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+                <img src="https://private-us-east-1.manuscdn.com/sessionFile/m5G2nXpj3SMHSJAZzgcAEP/sandbox/slides_resource_if2qsvgktqhvg6x5i6s2b-0221b572-e2b-prod-aws-sg_1764266402203_na1fn_L2hvbWUvdWJ1bnR1L3NldmVuX3Rvb2xzX2NsZWFuL2ltYWdlX3F1YWxpdHlfdG9vbHM.jpg?x-oss-process=image/resize,w_1560,h_1560/format,webp&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvbTVHMm5YcGozU01IU0pBWnpnY0FFUC9zYW5kYm94L3NsaWRlc19yZXNvdXJjZV9pZjJxc3Zna3RxaHZnNng1aTZzMmItMDIyMWI1NzItZTJiLXByb2QtYXdzLXNnXzE3NjQyNjY0MDIyMDNfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwzTmxkbVZ1WDNSdmIyeHpYMk5zWldGdUwybHRZV2RsWDNGMVlXeHBkSGxmZEc5dmJITS5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xNTYwLGhfMTU2MC9mb3JtYXQsd2VicCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=a599QH1RXZv1gwffEonNe41DiVwaQ1Wm~6SQITHCLVau7BWzJ~mL2jU1k-3gr6mlD13ByHrWRUdzIKqoT4qeAQkQqBKuYBkR3FOdIKi-cTsatCtsZmmwRiL5XR90mCmtZcqKul~vCEGvaBZ12sxujRPb8IIWxB33BzIIAiLuoWg7idoK~HSsvnsvxNv5m1JRBRDt8E2rVVCbbrE5wzfyxa8Sbv5wFM-1jzCJ76K1xm66cpr4tCMmg3qkZG97JBnJ24g5l9wztxkLjMpd89Cqmy0eCfFB1ce9wC64FvciEC~eXmXlsHyWU8IXc-MdA7J7pHdAwwd4NIz5~s6srYC8iQ__" alt="Quality Tools Visual">
             </div>
         </div>
-        <div class="divider"></div>
-        <div class="links">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfz5N5PyLyIh40-_vFpBGwGqOs9y5Yq4SLSsD5QHSt37oHdjg/viewform" class="link-button ganjil"><sup>01</sup> Form Biro</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSerzt-aVJVz9qCI9acOJ5jkrvRXA-nNjCneGtS3G960zBsUgw/viewform" class="link-button genap">Form Aspirasi<sup>02</sup></a>
-            <a href="https://linktr.ee/UNPLegislatifFair2024" class="link-button ganjil"><sup>03</sup>ULF 2024</a>
-            <a href="https://docs.google.com/forms/d/1DDcGcLyMGTCmfz6g25Ko8RYl1NKRbD8GBpBAofo247o/viewform?edit_requested=true" class="link-button genap">SLM UNP 2024<sup>04</sup></a>
-            <a href="#" class="link-button ganjil"><sup>05</sup>Uji Publik UUD</a>
-            <a href="https://drive.google.com/file/d/1xMJYX79SLxSQJHiAOzVPisq8nKga13AF/preview" class="link-button genap">Teknik Sidang<sup>06</sup></a>
-            <a href="#" class="link-button ganjil"><sup>07</sup>Contact Person</a>
+        <div class="footer">
+            <div class="footer-left">Quality and Problem Solving - Seven Basic Quality Tools</div>
+            <div class="progress-indicator"><div class="progress-bar"></div></div>
+            <div class="footer-right">Slide 12 / 13</div>
         </div>
-        <div class="divider"></div>
-        <div class="social-media">
-            <a href="https://www.instagram.com/mpmkmunp" class="social-button">Instagram</a>
-            <a href="https://youtube.com/@mpmkmunp?si=LvIjLs1g1JnFMpX6" class="social-button">YouTube</a>
-        </div>
-        <footer>
-            <p>by: EXTRAPORA</p>
-        </footer>
     </div>
 </body>
 </html>
